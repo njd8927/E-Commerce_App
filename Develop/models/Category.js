@@ -4,6 +4,7 @@ const sequelize = require('../config/connection.js');
 
 class Category extends Model {}
 
+// set up Category model by defining id & category_name properties
 Category.init(
   {
     id: {
@@ -26,4 +27,5 @@ Category.init(
   }
 );
 
+// export Category model
 module.exports = Category;
