@@ -26,6 +26,7 @@ Tag.belongsToMany(Product, {
   foreignKey: "tag_id",
 });
 
+// export all models as an object literal
 module.exports = {
   Product,
   Category,
