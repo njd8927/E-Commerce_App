@@ -1,3 +1,4 @@
+// import required packages and destructured models
 const router = require('express').Router();
 const { Tag, Product, ProductTag } = require('../../models');
 
